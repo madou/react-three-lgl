@@ -40,7 +40,7 @@ import { Environment } from '@react-three/drei'
 
 <Canvas>
   <Suspense fallback={null}>
-    <Rayctracer>
+    <Raytracer>
       <Scene />
     </Raytracer>
     <Environment preset="city" />
